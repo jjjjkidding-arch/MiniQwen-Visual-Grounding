@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# MiniQwen project-specific exclusions
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local datasets and model files
+data/
+flickr8k_local/
+checkpoints/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
